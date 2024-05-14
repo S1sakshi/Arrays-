@@ -41,11 +41,13 @@ public class largestRow_or_Coumn {
 	public static void main(String args[]) {
 		
 		Scanner sc = new Scanner(System.in);
+        System.out.print("Enter size of 1st Array: ");
 		int n = sc.nextInt();
+        System.out.print("Enter size of 2nd Array: ");
 		int m = sc.nextInt();
 		
 		int arr[][] = new int[n][m];
-		
+		System.out.println("Enter array elements: ");
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<m; j++) {
 				arr[i][j]= sc.nextInt();
